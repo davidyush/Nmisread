@@ -1,0 +1,27 @@
+{
+  "name": "nmisread",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "watch": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "bluebird": "^3.5.3",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.0",
+    "mongoose": "^5.4.16",
+    "mongoose-morgan": "^1.0.8",
+    "mongoose-unique-validator": "^2.0.2",
+    "node-fetch": "^2.3.0",
+    "path-to-regexp": "^3.0.0",
+    "websocket": "^1.0.28"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
